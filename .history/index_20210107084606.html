@@ -112,10 +112,7 @@
               </button>
               <div class="navbar-brand logo">
                 <a href="index.html"
-                  ><img
-                    class="img-fluid"
-                    src="images/FinalLogo.png"
-                    alt="Image"
+                  ><img class="img-fluid" src="images/FinalLogo.png" alt="Image"
                 /></a>
               </div>
             </div>
@@ -265,7 +262,7 @@
                 <div class="exprience-image">
                   <img
                     class="img-fluid"
-                    src="images/experience/GraphicGallery.PNG"
+                    src="images/exprience/5.png"
                     alt="Image"
                   />
                 </div>
@@ -273,9 +270,7 @@
                   <h3>Freelance Graphic Designer</h3>
                   <h5>January, 2018 - Present</h5>
                   <p>
-                    Acquire clients through Facebook and Linkedin and created
-                    their logos, banners, profile pictures, or any other
-                    graphics they needed.
+                    Create Graphic Designs for small businesses
                   </p>
                 </div>
               </div>
@@ -321,14 +316,6 @@
         <!-- container -->
       </div>
       <!-- education section -->
-
-      <div class="row justify-content-center">
-        <div class="button">
-          <a href="#" class="btn btn-primary"
-            >Download My Resume as a .pdf file</a
-          >
-        </div>
-      </div>
 
       <div id="portfolio" class="portfolio-section section-padding">
         <div class="container">
@@ -587,9 +574,9 @@
                     </p>
                   </div>
                   <form
-                    id="form"
+                    id="contact-form"
                     class="contact-form"
-                    name="form"
+                    name="contact-form"
                     method="post"
                     action="#"
                   >
@@ -638,8 +625,6 @@
                     </div>
                     <div class="form-group pull-right">
                       <button
-                        id="button"
-                        name="button"
                         type="submit"
                         class="btn btn-primary"
                         onclick="sendEmail()"
@@ -1205,39 +1190,24 @@
     <script src="js/easypiechart.js"></script>
     <script src="js/magnific-popup.min.js"></script>
     <script src="js/main.js"></script>
-    <script type="text/javascript"
-  src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
 
-<script type="text/javascript">
-  emailjs.init('user_6QJaunDGy0xqYrVJn5n8d')
-</script>
+    <!--smtpJS-->
+    <script src="https://smtpjs.com/v3/smtp.js">
 
-    <!--Javascript that implements EmailJS-->
-    <script>
-      const btn = document.getElementById('button');
+        function sendEmail(){
+            Email.send({
+                Host : "smtp.yourisp.com",
+                Username : "username",
+                Password : "password",
+                To : 'zhadjah@gmail.com',
+                From : "you@isp.com",
+                Subject : "An Inquirer has sent you mail!",
+                Body : "And this is the body"
+            }).then(
+            message => alert(message)
+        );}
 
-      document
-        .getElementById('form')
-        .addEventListener('submit', function (event) {
-          event.preventDefault();
-
-          btn.value = 'Sending...';
-
-          const serviceID = 'default_service';
-          const templateID = 'template_4l2cxg2';
-
-          emailjs.sendForm(serviceID, templateID, this).then(
-            () => {
-              btn.value = 'Send Email';
-              alert('Sent!');
-            },
-            (err) => {
-              btn.value = 'Send Email';
-              alert(JSON.stringify(err));
-            }
-          );
-        });
     </script>
-
+    <!--smtpJS-->
   </body>
 </html>

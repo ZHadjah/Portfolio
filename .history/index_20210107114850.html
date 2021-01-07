@@ -1214,7 +1214,7 @@
 
     <!--Javascript that implements EmailJS-->
     <script>
-      const btn = document.getElementById('button');
+      const btn = document.getElementById("button");
 
       document
         .getElementById('form')
@@ -1223,16 +1223,16 @@
 
           btn.value = 'Sending...';
 
-          const serviceID = 'default_service';
-          const templateID = 'template_4l2cxg2';
+          const serviceID = 'default_service";
+          const templateID = "template_4l2cxg2";
 
           emailjs.sendForm(serviceID, templateID, this).then(
             () => {
-              btn.value = 'Send Email';
-              alert('Sent!');
+              btn.value = "Send Email";
+              alert("Sent!");
             },
             (err) => {
-              btn.value = 'Send Email';
+              btn.value = "Send Email";
               alert(JSON.stringify(err));
             }
           );
