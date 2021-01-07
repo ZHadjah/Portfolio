@@ -112,7 +112,7 @@
               </button>
               <div class="navbar-brand logo">
                 <a href="index.html"
-                  ><img class="img-fluid" src="images/FinalLogo.png" alt="Image"
+                  ><img class="img-fluid" src="images/logo.png" alt="Image"
                 /></a>
               </div>
             </div>
@@ -219,7 +219,7 @@
                 <div class="exprience-image">
                   <img
                     class="img-fluid"
-                    src="images/experience/CFLogo.jpg"
+                    src="images/exprience/1.png"
                     alt="Image"
                   />
                 </div>
@@ -243,7 +243,7 @@
                 <div class="exprience-image">
                   <img
                     class="img-fluid"
-                    src="images/experience/MSWormsLogo.PNG"
+                    src="images/experience/.png"
                     alt="Image"
                   />
                 </div>
@@ -1195,20 +1195,18 @@
 
     <!--smtpJS-->
     <script src="https://smtpjs.com/v3/smtp.js">
-
-        function sendEmail(){
-            Email.send({
-                Host : "smtp.yourisp.com",
-                Username : "username",
-                Password : "password",
-                To : 'zhadjah@gmail.com',
-                From : "you@isp.com",
-                Subject : "An Inquirer has sent you mail!",
-                Body : "And this is the body"
-            }).then(
-            message => alert(message)
-        );}
-
+    function sendEmail(){
+        Email.send({
+            Host : "smtp.yourisp.com",
+            Username : "username",
+            Password : "password",
+            To : 'them@website.com',
+            From : "you@isp.com",
+            Subject : "This is the subject",
+            Body : "And this is the body"
+        }).then(
+        message => alert(message)
+      );}
     </script>
     <!--smtpJS-->
   </body>
