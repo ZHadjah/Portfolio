@@ -318,9 +318,7 @@
                     <br>
                 <form action="/Home/Download" class="form-horizontal" method="post" role="form">
                   <div class="btn btn-primary">
-                    <a href="images/January Resume Jan 8th.pdf" download>
-                      Download My Full Resume
-                    </a>
+                    Download My Full Resume
                   </div>
                 </form>                        
               </div>
@@ -342,6 +340,11 @@
             <div class="col-md-8">
               <div class="text-info">
                 <h4>My Recent Work</h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam.
+                </p>
               </div>
               <div class="portfolio-content">
                 <div class="row">
@@ -515,8 +518,10 @@
                   </div>
                 </div>
               </div>
+            portfolio content 
       </div>
           </div>
+          row -->
       </div>
         <!-- container -->
       </div>
@@ -829,13 +834,12 @@
         </div>
         <!-- container -->
       </div>
-      <!-- blog section -->  
-      
+      <!-- blog section -->   
 
       <div id="footer">
         <div class="container text-center">
           <div class="footer">
-            <p>Thanks for stopping by!!</p>
+            <p>&copy; 2016 <a href="#">Surzil Geek.</a> All Rights Reserved</p>
           </div>
         </div>
         <!-- contaner -->
@@ -843,16 +847,6 @@
       <!-- footer -->
     </div>
     <!-- main wrapper -->
-
-     <!--Store Modals Here-->
-     <div class="modal fade" id="myModal" role="dialog">
-      <div class="modal-dialog">
-        <!--Modal content-->
-        <div class=""></div>
-      </div>
-    </div>
-     <!--End of Modals-->
-
 
     <!-- JS -->
     <script src="js/jquery.min.js"></script>
@@ -890,12 +884,7 @@
           emailjs.sendForm(serviceID, templateID, this).then(
             () => {
               btn.value = "Send Email";
-              //SweetAlert2 code
-               Swal.fire({
-                title:'Thanks for the message!',
-                text:'I will respond back ASAP!',
-                imageUrl: 'images/tenor.gif'
-            }); document.getElementById('form').reset()
+              alert("Sent!");
             },
             (err) => {
               btn.value = "Send Email";
@@ -906,9 +895,18 @@
     </script>
 
  <!--Sweet Alert-->
- <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10">
+ <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
-</script>
-   
+
+
+
+    <!--Store Modals Here-->
+    <div class="modal fade" id="myModal" role="dialog">
+      <div class="modal-dialog">
+        <!--Modal content-->
+        <div class=""></div>
+      </div>
+    </div>
+
   </body>
 </html>

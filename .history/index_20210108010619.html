@@ -45,11 +45,6 @@
       href="../images/ico/apple-touch-icon-57-precomposed.png"
     />
 
-    <!--Font Awesome Icons-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-   
-
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -67,17 +62,17 @@
                 <div class="home-social">
                   <ul class="list-inline">
                     <li class="list-inline-item">
-                      <a href="https://www.linkedin.com/in/zacharyhadjah/"
+                      <a href="#"
                         ><i class="fa fa-linkedin" aria-hidden="true"></i
                       ></a>
                     </li>
                     <li class="list-inline-item">
-                      <a href="https://twitter.com/ZHadjah"
+                      <a href="#"
                         ><i class="fa fa-twitter" aria-hidden="true"></i
                       ></a>
                     </li>
                     <li class="list-inline-item">
-                      <a href="https://github.com/zhadjah9559"
+                      <a href="#"
                         ><i class="fa fa-github-alt" aria-hidden="true"></i
                       ></a>
                     </li>
@@ -306,30 +301,27 @@
                 <div class="section-content">
                     
                     <div class="education-info">
-                        <img class="img-fluid" src="/images/education/wsuLogo.jpg" alt="Image">
-                        <h3>Westfield State University</h3>
-                        <h5>Bachelors in Computer Science</h5>
-                        <h6>2016 - 2020</h6>
-                        <p>Learned the foundations of Computer Science Principles. Operating System, Low Level 
-                          Programming, Data Structures and Algorithms, Object Oriented Programming. Gained a
-                          deep knowledge of Java and Object Oriented Programming.
-                        </p>
+                        <img class="img-fluid" src="/Template/images/education/gtcc.png" alt="Image">
+                        <h3>Guilford Technical Community College</h3>
+                        <h5>Associate of Applied Science - Computer Information Technology</h5>
+                        <h6>2014 - 2016</h6>
+                        <p>Learned how to identify basic network components, analyze the technical needs of end users, develop a website using industry standards, identify various computer security threats, and troubleshoot and repair common computer problems.</p>
                     </div>
                     <br>
-                <form action="/Home/Download" class="form-horizontal" method="post" role="form">
-                  <div class="btn btn-primary">
-                    <a href="images/January Resume Jan 8th.pdf" download>
-                      Download My Full Resume
-                    </a>
-                  </div>
-                </form>                        
-              </div>
+<form action="/Home/Download" class="form-horizontal" method="post" role="form">
+   <div class="button">
+      <button class="btn btn-primary">Download My Full Resume</button>
+    </div>
+</form>                        </div>
             </div>
         </div><!-- row -->
     </div>
       <!-- education section -->
 
-     
+      <form action="/Home/Download" class="form-horizontal" method="post" role="form">
+        <button class="btn btn-primary">Download My Full Resume</button>
+    </div>
+</form>
 
       <div id="portfolio" class="portfolio-section section-padding">
         <div class="container">
@@ -342,6 +334,11 @@
             <div class="col-md-8">
               <div class="text-info">
                 <h4>My Recent Work</h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam.
+                </p>
               </div>
               <div class="portfolio-content">
                 <div class="row">
@@ -515,8 +512,10 @@
                   </div>
                 </div>
               </div>
+            portfolio content 
       </div>
           </div>
+          row -->
       </div>
         <!-- container -->
       </div>
@@ -829,13 +828,12 @@
         </div>
         <!-- container -->
       </div>
-      <!-- blog section -->  
-      
+      <!-- blog section -->   
 
       <div id="footer">
         <div class="container text-center">
           <div class="footer">
-            <p>Thanks for stopping by!!</p>
+            <p>&copy; 2016 <a href="#">Surzil Geek.</a> All Rights Reserved</p>
           </div>
         </div>
         <!-- contaner -->
@@ -843,16 +841,6 @@
       <!-- footer -->
     </div>
     <!-- main wrapper -->
-
-     <!--Store Modals Here-->
-     <div class="modal fade" id="myModal" role="dialog">
-      <div class="modal-dialog">
-        <!--Modal content-->
-        <div class=""></div>
-      </div>
-    </div>
-     <!--End of Modals-->
-
 
     <!-- JS -->
     <script src="js/jquery.min.js"></script>
@@ -890,12 +878,7 @@
           emailjs.sendForm(serviceID, templateID, this).then(
             () => {
               btn.value = "Send Email";
-              //SweetAlert2 code
-               Swal.fire({
-                title:'Thanks for the message!',
-                text:'I will respond back ASAP!',
-                imageUrl: 'images/tenor.gif'
-            }); document.getElementById('form').reset()
+              alert("Sent!");
             },
             (err) => {
               btn.value = "Send Email";
@@ -905,10 +888,13 @@
         });
     </script>
 
- <!--Sweet Alert-->
- <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10">
+    <!--Store Modals Here-->
+    <div class="modal fade" id="myModal" role="dialog">
+      <div class="modal-dialog">
+        <!--Modal content-->
+        <div class=""></div>
+      </div>
+    </div>
 
-</script>
-   
   </body>
 </html>
