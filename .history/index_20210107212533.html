@@ -11,6 +11,7 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
     <link rel="stylesheet" href="css/magnific-popup.css" />
     <link rel="stylesheet" href="css/animate.css" />
     <link rel="stylesheet" href="css/main.css" />
@@ -44,7 +45,9 @@
       sizes="57x57"
       href="../images/ico/apple-touch-icon-57-precomposed.png"
     />
-    
+
+    <!--scrollbar-->
+
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -145,37 +148,35 @@
       <div id="about" class="about-section section-padding">
         <div class="container pt-9">
           <div class="row">
-            
+            <div class="col-md-4">
+              <div class="section-title">
+                <h1>Zachary Hadjah</h1>
+              </div>
+            </div>
 
-            <div id="about" class="about-section section-padding">
-              <div class="container">
-                  <div class="row">
-                      <div class="col-md-4">
-                          <div class="section-title">
-                              <h1>Zachary Hadjah</h1>
-                          </div>
-                      </div>
-                      <div class="col-md-8">
-                          <div class="about-info">
-                              <p>I have been developing websites since 2018. I've created and managed front 
-                                end websites since 2018 while developing and updating full stack web 
-                                applications since 2020. I have a Bachelors in Computer Science 
-                                obtained from Westfield State University. 
-                              </p>
-                              <div class="signature">
-                                  <h1>Zachary Hadjah</h1>
-                              </div>
-                          </div>
-                          <address>
-                              <!--  <p><span>Nick Name:</span> Endrue Surzil Geek</p> -->
-                              <p><span>Email:</span> zhadjah@gmail.com</p>
-      
-                          </address>
-                          
-                      </div>
-                  </div><!-- row -->
-              </div><!-- container -->
-          </div>
+            <div class="col-md-8">
+              <div class="exprience">
+                <div class="exprience-image">
+                  <img
+                    class="img-fluid"
+                    src="images/LinkedIn Profile2.png"
+                    alt="Image"
+                  />
+                </div>
+                <div class="exprience-info">
+                  <h3>Software Engineer</h3>
+                  <h5>January 2020 - Present</h5>
+                  <p>
+                    I am a software engineer that specializes in Full-Stack web
+                    development. I have been developing web sites since 2018. I
+                    have a degree in Computer Science from Westfield State
+                    University. To hone my skills in the .NET Environment , I
+                    joined Coder foundry, a premiere organization for Full Stack
+                    Developers.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
           <!-- row -->
         </div>
@@ -199,7 +200,7 @@
                     I have experience developing with HTML5, CSS3, and
                     Bootstrap4. I also work with high level Languages such as
                     Java, C#, C, C++, Javascript. When creating web
-                    applications, I've worked with the ASP.NET CORE MVC design pattern
+                    applications, I utilize the ASP.NET CORE MVC design pattern
                     while managing data with Microsoft's Entity Core Framework.
                   </p>
                 </div>
@@ -319,18 +320,21 @@
                 Urban Edcation Program.
               </p>
             </div>
+            
+            <form action="/Home/Download" class="form-horizontal mt-5" method="post" role="form">
+              <button class="btn btn-primary">Download My Full Resume</button>
           </div>
+        </div>
           <!-- row -->
         </div>
         <!-- container -->
       </div>
       <!-- education section -->
 
-      <form action="/Home/Download" class="form-horizontal" method="post" role="form">
-        <button class="btn btn-primary">Download My Full Resume</button>
-    </div>
+      
 </form>
 
+      <!--*************************************************************************
       <div id="portfolio" class="portfolio-section section-padding">
         <div class="container">
           <div class="row">
@@ -520,13 +524,13 @@
                   </div>
                 </div>
               </div>
-            portfolio content 
-      </div>
+            --><!-- portfolio content -->
+      <!--</div>
           </div>
-          row -->
-      </div>
-        <!-- container -->
-      </div>
+          ***THIS A COMMENT--** row -->
+      <!--**</div>
+        **--><!-- container -->
+      <!--</div>**-->
       <!-- portfolio section -->
 
       <div id="contact" class="contact-section bg-color section-padding">
@@ -546,7 +550,7 @@
                         <i class="fa fa-envelope-o" aria-hidden="true"></i>
                       </div>
                       <h3>Email address</h3>
-                      itsme@surzilgeek.com
+                      <a href="#">itsme@surzilgeek.com</a>
                     </li>
                     <li>
                       <div class="icons icons3">
@@ -581,6 +585,11 @@
                       </div>
                       <h3>Leave me a message</h3>
                     </div>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam.
+                    </p>
                   </div>
                   <form
                     id="form"
@@ -836,7 +845,9 @@
         </div>
         <!-- container -->
       </div>
-      <!-- blog section -->   
+      <!-- blog section -->
+
+      
 
       <div id="footer">
         <div class="container text-center">
