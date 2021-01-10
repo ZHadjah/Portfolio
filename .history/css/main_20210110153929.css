@@ -1094,7 +1094,7 @@ img.mfp-img {
 /* Blog Section */
 
 .blog-section .entry-post {
-    cursor: pointer;
+    
     margin-bottom: 30px;
     overflow: hidden;
 }
