@@ -15,7 +15,6 @@
     <link rel="stylesheet" href="css/animate.css" />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/responsive.css" />
-    <link rel="stylesheet" href="css/style.css">
 
     <!-- Fonts -->
     <link
@@ -457,7 +456,7 @@
                   </div>
 
 
-                  <div class="col-sm-6 modals" id="OpenTacocatGrammarModal" data-toggle="modal" data-target="#TacocatGrammarModal">
+                  <div class="col-sm-6 modals" id="TacocatGrammarModal" data-toggle="modal" data-target="#TacocatGrammarModal">
                     <div class="portfolio-item">
                       <img
                         class="img-fluid"
@@ -1084,17 +1083,14 @@
 
     <!--JAVASCRIPT FOR MODAL BEGINNING-->
     <script>
-      // var images = document.getElementById('OpenInternalIssuesModal');
+      var images = document.getElementById('OpenInternalIssuesModal');
       // var modal = document.getElementById('InternalIssuesModal');
       var modal = document.querySelectorAll('.modal');
-      var images = document.querySelectorAll('.modals');
+      
 
 
-
-      for(let i=0; i < images.length; i++){
-    images[i].addEventListener("click", () => {
-     modal.style.display = "block"
-    })
+      for(let i=0; imodal.length; i++){
+    img[i].addEventListener("click",showImageModal);
 }
       // images.addEventListener('click', () =>{
       //   modal.style.display = 'block';

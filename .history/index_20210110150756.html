@@ -15,7 +15,6 @@
     <link rel="stylesheet" href="css/animate.css" />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/responsive.css" />
-    <link rel="stylesheet" href="css/style.css">
 
     <!-- Fonts -->
     <link
@@ -368,7 +367,7 @@
                 <div class="row">
 
 
-                  <div class="col-sm-6 modals" id="OpenInternalIssuesModal" data-toggle="modal" data-target="#InternalIssuesModal">
+                  <div class="col-sm-6" id="OpenInternalIssuesModal" data-toggle="modal" data-target="#InternalIssuesModal">
                     <div class="portfolio-item">
                       <img
                         class="img-fluid"
@@ -391,7 +390,7 @@
                   </div>
 
 
-                  <div class="col-sm-6 modals" id="OpenCashflowCounterModal" data-toggle="modal" data-target="#CashflowCounterModal">
+                  <div class="col-sm-6" id="OpenCashflowCounterModal" data-toggle="modal" data-target="#CashflowCounterModal">
                     <div class="portfolio-item">
                       <img
                         class="img-fluid"
@@ -413,7 +412,7 @@
                   </div>
 
 
-                  <div class="col-sm-6 modals" id="OpenBrainBufferOverflowModal" data-toggle="modal" data-target="#BrainBufferOverflowModal">
+                  <div class="col-sm-6" id="OpenBrainBufferOverflowModal" data-toggle="modal" data-target="#BrainBufferOverflowModal">
                     <div class="portfolio-item">
                       <img
                         class="img-fluid"
@@ -435,7 +434,7 @@
                   </div>
 
 
-                  <div class="col-sm-6 modals" id="OpenFizzBuzzModal" data-toggle="modal" data-target="#FizzBuzzModal">
+                  <div class="col-sm-6" id="OpenFizzBuzzModal" data-toggle="modal" data-target="#FizzBuzzModal">
                     <div class="portfolio-item">
                       <img
                         class="img-fluid"
@@ -457,7 +456,7 @@
                   </div>
 
 
-                  <div class="col-sm-6 modals" id="OpenTacocatGrammarModal" data-toggle="modal" data-target="#TacocatGrammarModal">
+                  <div class="col-sm-6" id="TacocatGrammarModal" data-toggle="modal" data-target="#TacocatGrammarModal">
                     <div class="portfolio-item">
                       <img
                         class="img-fluid"
@@ -479,7 +478,7 @@
                   </div>
 
 
-                  <div class="col-sm-6 modals" id="OpenSunsetHillsModal" data-toggle="modal" data-target="#SunsetHillsModal">
+                  <div class="col-sm-6" id="OpenSunsetHillsModal" data-toggle="modal" data-target="#SunsetHillsModal">
                     <div class="portfolio-item">
                       <img
                         class="img-fluid"
@@ -1084,17 +1083,13 @@
 
     <!--JAVASCRIPT FOR MODAL BEGINNING-->
     <script>
-      // var images = document.getElementById('OpenInternalIssuesModal');
+      var images = document.getElementById('OpenInternalIssuesModal');
       // var modal = document.getElementById('InternalIssuesModal');
       var modal = document.querySelectorAll('.modal');
-      var images = document.querySelectorAll('.modals');
 
 
-
-      for(let i=0; i < images.length; i++){
-    images[i].addEventListener("click", () => {
-     modal.style.display = "block"
-    })
+      for(let i=0; i<iamg.length; i++){
+    img[i].addEventListener("click",showImageModal);
 }
       // images.addEventListener('click', () =>{
       //   modal.style.display = 'block';
