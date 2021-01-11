@@ -67,13 +67,10 @@ background-color:#2C4E85;
     background-color:#FFDE59;
 }
 
-#FizzBuzzComingSoon h1{
-    color:white;
-}
+
 
 #FizzBuzzBody{
     background-color:#000;
-    color:#FFDE59;
 }
 
 #FizzBuzzBody, .header-color {
