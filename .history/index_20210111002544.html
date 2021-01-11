@@ -273,7 +273,15 @@
                     Created and managed an Ecommerce site using basic HTML and
                     CSS. Sold vermicompast to residents of The Greater Boston
                     Area. Ran basic Facebook ads to attract clients.                    
-                  </p>                
+                  </p>
+
+                  <div class="row justify-content-center">
+                    <a href="www.middlesexworms.com">
+                      www.middlesexworms.com
+                    </a>
+                  </div>
+                  
+
                 </div>
               </div>
               <hr />
@@ -919,7 +927,7 @@
               </div>
 
               <div class="modal-footer justify-content-center" id="SunsetHillsFooter">
-                <input type="button" class="btn btn-primary modalSelector" value="Close">
+                <input id="closeSunsetHills" type="button" class="btn btn-primary modalSelector" value="Close">
               </div>
           </div>
 
@@ -1068,7 +1076,7 @@
        //<div class="col-sm-6 modals"
       var images = document.querySelectorAll('.modals');
 
-      var close = document.querySelector('.modalSelector');
+      var close = document.querySelectorAll
 
 
       for(let i=0; i < images.length; i++){
@@ -1076,10 +1084,6 @@
           modal.style.display = "block"
         })
       } 
-
-      close.addEventListener("click", () =>{
-        modal.style.display='none';
-      });
 
     </script>
     <!--JAVASCRIPT FOR PROJECT MODAL BEGINNING-->

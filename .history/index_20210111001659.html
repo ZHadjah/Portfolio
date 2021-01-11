@@ -273,7 +273,15 @@
                     Created and managed an Ecommerce site using basic HTML and
                     CSS. Sold vermicompast to residents of The Greater Boston
                     Area. Ran basic Facebook ads to attract clients.                    
-                  </p>                
+                  </p>
+
+                  <div class="row justify-content-center">
+                    <a href="www.middlesexworms.com">
+                      www.middlesexworms.com
+                    </a>
+                  </div>
+                  
+
                 </div>
               </div>
               <hr />
@@ -763,7 +771,7 @@
 
 
               <div class="modal-footer justify-content-center" id="InternalIssuesFooter">
-                <input id="closeInternalIssues" type="button" class="btn btn-primary" value="Close">
+                <input type="button" class="btn btn-primary" value="Close">
               </div>
           </div>
 
@@ -796,7 +804,7 @@
                 </div>
               </div>
               <div class="modal-footer justify-content-center"  id="CashflowCounterFooter">
-                <input id="closeCashflowCounter" type="button" class="btn btn-primary" value="Close">
+                <input type="button" class="btn btn-primary" value="Close">
               </div>
           </div>
 
@@ -828,7 +836,7 @@
               </div>
 
               <div class="modal-footer justify-content-center"  id="BrainBufferOverflowFooter">
-                <input id="closeBrainBufferOverflow" type="button" class="btn btn-primary" value="Close">
+                <input type="button" class="btn btn-primary" value="Close">
               </div>
           </div>
 
@@ -857,7 +865,7 @@
               </div>
 
               <div class="modal-footer justify-content-center"  id="FizzBuzzFooter">              
-                <input id="closeFizzBuzz" type="button" class="btn btn-primary"  value="Close">
+                <input type="button" class="btn btn-primary" class="closeBtn" value="Close">
               </div>
           </div>
 
@@ -887,7 +895,7 @@
               </div>
 
               <div class="modal-footer justify-content-center" id="TacocatGrammarFooter">
-                <input id="closeTacocatGrammar" type="button" class="btn btn-primary" value="Close">
+                <input type="button" class="btn btn-primary" value="Close">
               </div>
           </div>
 
@@ -919,7 +927,7 @@
               </div>
 
               <div class="modal-footer justify-content-center" id="SunsetHillsFooter">
-                <input type="button" class="btn btn-primary modalSelector" value="Close">
+               <input type="button" class="btn btn-primary" value="Close">
               </div>
           </div>
 
@@ -958,7 +966,7 @@
 
               <div class="modal-footer justify-content-center"  id="KnoobsFooter">
                 <a href="#" target="_blank" class="btn btn-primary">View Blog Post</a>
-                <input id="closeKnoobs" type="button" class="btn btn-primary" value="Close">
+                <input type="button" class="btn btn-primary" value="Close">
               </div>
           </div>
 
@@ -992,7 +1000,7 @@
 
               <div class="modal-footer justify-content-center"  id="CICDFooter">
                 <a href="#" target="_blank" class="btn btn-primary">View Blog Post</a><span> </span>
-                <input id="closeCICD" type="button" class="btn btn-primary" value="Close">
+                <input type="button" class="btn btn-primary" value="Close">
               </div>
           </div>
 
@@ -1068,18 +1076,12 @@
        //<div class="col-sm-6 modals"
       var images = document.querySelectorAll('.modals');
 
-      var close = document.querySelector('.modalSelector');
-
 
       for(let i=0; i < images.length; i++){
         images[i].addEventListener("click", () => {
           modal.style.display = "block"
         })
       } 
-
-      close.addEventListener("click", () =>{
-        modal.style.display='none';
-      });
 
     </script>
     <!--JAVASCRIPT FOR PROJECT MODAL BEGINNING-->
