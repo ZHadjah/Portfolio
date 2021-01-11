@@ -1069,7 +1069,7 @@
        //<div class="col-sm-6 modals"
       var images = document.querySelectorAll('.modals');
 
-      var close = document.querySelectorAll('.modalSelector');
+      var close = document.querySelector('.modalSelector');
 
 
       for(let i=0; i < images.length; i++){
@@ -1078,11 +1078,9 @@
         })
       } 
 
-      for(let i=0; i < close.length; i++){
-        close[i].addEventListener("click", () =>{
-          modal.style.display= "none";
-        });
-      }
+      close.addEventListener("click", () =>{
+        modal.style.display='none';
+      });
 
     </script>
     <!--JAVASCRIPT FOR PROJECT MODAL BEGINNING-->
