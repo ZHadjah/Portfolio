@@ -3,10 +3,6 @@
 background-color:#2C4E85;
 }
 
-#InternalIssuesTitle h1{
-    color:#DFF0FE;
-}
-
 #InternalIssuesBody{
 background-color:#DFF0FE;
 }
@@ -20,10 +16,7 @@ background-color:#2C4E85;
 /*CashflowCounter Project*/
 #CashflowCounterHeader{
     background-color:#000;
-}
-
-#CashflowCounterTitle h1{
-    color:#F9ED32;
+    color:white;
 }
   
 #CashflowCounterBody{
@@ -40,10 +33,6 @@ background-color:#2C4E85;
 /*BrainBufferOverflow Project*/
 #BrainBufferOverflowHeader{
     background-color:#6E80D4;
-}
-
-#BrainBufferOverflowTitle h1{
-    color:#F48024;
 }
 
 #BrainBufferOverflowBody{
@@ -65,7 +54,7 @@ background-color:#2C4E85;
     background-color:#000;
 }
 
-#FizzBuzzBody, .header-color {
+#FizzBuzzBody, #CashflowCounter.h1 {
     color:white;
 }
   

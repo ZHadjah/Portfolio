@@ -664,8 +664,6 @@
 
               <!-- Blog Posts-->
               <div class="row">
-                
-
                 <div class="col-sm-6 modals" id="OpenKnoobsModal" data-toggle="modal" data-target="#KnoobsModal">
                   <div class="entry-post">
                     <div class="entry-thumbnail">
@@ -690,8 +688,6 @@
                     </div>
                   </div>
                 </div>
-
-
                 <div class="col-sm-6 modals" id="OpenCICDModal" data-toggle="modal" data-target="#CICDModal">
                   <div class="entry-post">
                     <div class="entry-thumbnail">
@@ -717,7 +713,6 @@
                   </div>
                 </div>
               </div>
-
 
               <!-- row -->
             </div>
@@ -749,9 +744,7 @@
           
           <div class="modal-content">
             <div class="modal-header justify-content-center" id="InternalIssuesHeader">
-              <div id="InternalIssuesTitle">
-                <h1>Internal Issues</h1>
-              </div> 
+              <h1>Internal Issues</h1>
             </div> 
               
               <div class="modal-body" id="InternalIssuesBody">
@@ -787,10 +780,9 @@
           
           <div class="modal-content">
               <div class="modal-header justify-content-center"  id="CashflowCounterHeader">
-                <div id="CashflowCounterTitle">
-                  <h1>Cashflow Counter</h1>
-                </div>                
+                <div class="h1">Cashflow Counter</h1>
               </div> 
+              
               <div class="modal-body" id="CashflowCounterBody">
                 <div id="small-dialog2" class="white-popup zoom-anim-dialog text-center">
                   <img src="images/portfolio/CashflowCounter.png" alt="CashflowCounter">
@@ -805,6 +797,8 @@
                   
                 </div>
               </div>
+
+
               <div class="modal-footer justify-content-center"  id="CashflowCounterFooter">
                 <a href="https://sunsethillsj.netlify.app/solve" target="_blank" class="btn btn-primary">View Demo</a><span> </span>
                   <a href="https://sunsethillsj.netlify.app/code" target="_blank" class="btn btn-primary">View Source Code</a>
@@ -822,9 +816,7 @@
           
           <div class="modal-content">
               <div class="modal-header justify-content-center"  id="BrainBufferOverflowHeader">
-                <div id="BrainBufferOverflowTitle">
-                  <h1>BrainBufferOverflow</h1>
-                </div> 
+                <h1>BrainBufferOverflow</h1>
               </div> 
               
               <div class="modal-body" id="BrainBufferOverflowBody">
@@ -1090,12 +1082,12 @@
     <!--EmailJS BEGINNING-->
 
 
-    <!--JAVASCRIPT FOR PROJECT MODAL BEGINNING-->
+    <!--JAVASCRIPT FOR MODAL BEGINNING-->
     <script>
 
       //use .modal because .modal is unique
       //<div class="modal fade">
-      var modal = document.querySelectorAll('.fade');
+      var modal = document.querySelectorAll('.modal');
 
       //use .modals because .modals is unique
        //<div class="col-sm-6 modals"
@@ -1109,27 +1101,7 @@
       } 
 
     </script>
-    <!--JAVASCRIPT FOR PROJECT MODAL BEGINNING-->
-
-
-    <!--JAVASCRIPT FOR BLOGPOST MODAL BEGINNING-->
-    <script>
-
-      var modal = document.querySelectorAll('.fade');
-      var images = document.querySelectorAll('.entry-post');
-
-
-      for(let i=0; i < images.length; i++){
-        images[i].addEventListener("click", () => {
-          modal.style.display = "block"
-        })
-      } 
-
-    </script>
-    <!--JAVASCRIPT FOR BLOGPOSTMODAL BEGINNING-->
-
-
-
+    <!--JAVASCRIPT FOR MODAL BEGINNING-->
 
 
   <!--Sweet Alert-->

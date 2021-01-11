@@ -3,10 +3,6 @@
 background-color:#2C4E85;
 }
 
-#InternalIssuesTitle h1{
-    color:#DFF0FE;
-}
-
 #InternalIssuesBody{
 background-color:#DFF0FE;
 }
@@ -23,7 +19,7 @@ background-color:#2C4E85;
 }
 
 #CashflowCounterTitle h1{
-    color:#F9ED32;
+    color:white;
 }
   
 #CashflowCounterBody{
@@ -40,10 +36,6 @@ background-color:#2C4E85;
 /*BrainBufferOverflow Project*/
 #BrainBufferOverflowHeader{
     background-color:#6E80D4;
-}
-
-#BrainBufferOverflowTitle h1{
-    color:#F48024;
 }
 
 #BrainBufferOverflowBody{
