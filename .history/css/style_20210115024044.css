@@ -36,15 +36,7 @@
 
 /*MEDIA QUEIRES FOR ABOVE FOLD*/
 @media (max-width:768px)  {
-    #firstName{
-
-    }
-    #lastName{
-
-    }
-    #title{
-        
-    }
+    
 }
 @media (max-width:767px)  {
     
@@ -54,8 +46,6 @@
 }
 @media (max-width:1200px)  {
 /*MEDIA QUEIRES FOR ABOVE FOLD*/
-
-
 
 
 /*InternalIssues Project*/
