@@ -518,7 +518,6 @@ ul.sub-menu {
     font-size: 16px;
     text-transform: uppercase;
     letter-spacing: 26px;
-    margin-top: 30px;
 }
 
 /* Home Two  */
@@ -532,7 +531,7 @@ ul.sub-menu {
 .banner-content, #home-banner {
     position: relative;
     width: 100%;
-    height: 720px;
+    height: 7020px;
 }
 
 .banner-content .banner-info {

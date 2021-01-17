@@ -88,7 +88,7 @@
                 </div>
                 <div class="banner-info">
                   <h1 id="firstName">Hello, I am</h1>
-                  <h2 id="lastName">Zachary</h2>
+                  <h2 id="lastName">Zachary HadJah</h2>
                   <h3 id="jobTitle">Software Engineer</h3>
                 </div>
               </div>
@@ -739,6 +739,9 @@
       <!--InternalIssues Modal-->
       <div class="modal fade" id="InternalIssuesModal">
         <div class="modal-dialog">
+          
+          <span onclick="closeModal()">&times;</span>
+
           <div class="modal-content">
             <div class="modal-header justify-content-center" id="InternalIssuesHeader">
               <div id="InternalIssuesTitle">
@@ -762,6 +765,7 @@
               </div>
 
               <div class="modal-footer justify-content-center" id="InternalIssuesFooter">
+                <button id="viewInternalIssuesProject"  class="btn btn-primary modalViewProjectBtn">View Project</button>
                 <button id="closeInternalIssues"  class="btn btn-primary modalSelector">Close</button>
               </div>
           </div>
@@ -794,8 +798,8 @@
                 </div>
               </div>
               <div class="modal-footer justify-content-center"  id="CashflowCounterFooter">
-                <!-- <button id="viewCashflowCounterProject"  class="btn btn-primary modalViewProjectBtn">View Project</button> -->
-                <button id="closeCashflowCounter" class="btn btn-primary modalSelector">Close</button>
+                <button id="viewCashflowCounterProject"  class="btn btn-primary modalViewProjectBtn">View Project</button>
+                <button id="closeCashflowCounter" class="btn btn-primary modalSelector" onclick="">Close</button>
               </div>
           </div>
 
@@ -827,7 +831,7 @@
               </div>
 
               <div class="modal-footer justify-content-center"  id="BrainBufferOverflowFooter">
-                <!-- <button id="viewBrainBufferOverflowProject"  class="btn btn-primary modalViewProjectBtn">View Project</button> -->
+                <button id="viewBrainBufferOverflowProject"  class="btn btn-primary modalViewProjectBtn">View Project</button>
                 <input id="closeBrainBufferOverflow" type="button" class="btn btn-primary modalSelector" value="Close">
               </div>
           </div>
@@ -858,9 +862,8 @@
                 </div>
               </div>
 
-              <div class="modal-footer justify-content-center"  id="FizzBuzzFooter">  
-                <button id="viewFizzBuzzProject" onclick="window.location.href='https:/\/zacharyhadjahfizzbuzz.netlify.app/';" class="btn btn-primary modalViewProjectBtn">View Project</button>            
-                <button id="closeFizzBuzz" type="button" class="btn btn-primary modalSelector">Close</button>
+              <div class="modal-footer justify-content-center"  id="FizzBuzzFooter">              
+                <input id="closeFizzBuzz" type="button" class="btn btn-primary modalSelector"  value="Close">
               </div>
           </div>
 
@@ -890,7 +893,6 @@
               </div>
 
               <div class="modal-footer justify-content-center" id="TacocatGrammarFooter">
-                <button id="viewTacocatGrammarProject" onclick="window.location.href='https:/\/zacharyhadjahtacocatgrammar.netlify.app';" class="btn btn-primary modalViewProjectBtn">View Project</button>            
                 <input id="closeTacocatGrammar" type="button" class="btn btn-primary modalSelector" value="Close">
               </div>
           </div>
@@ -923,8 +925,7 @@
               </div>
 
               <div class="modal-footer justify-content-center" id="SunsetHillsFooter">
-                <button id="viewSunsetHillsProject" onclick="window.location.href='https:/\/zacharyhadjahsunsethills.netlify.app';" class="btn btn-primary modalViewProjectBtn">View Project</button>            
-                <button type="button" class="btn btn-primary modalSelector">Close</button>
+                <input type="button" class="btn btn-primary modalSelector" value="Close">
               </div>
           </div>
 
@@ -963,8 +964,7 @@
 
               <div class="modal-footer justify-content-center"  id="KnoobsFooter">
                 <a href="#" target="_blank" class="btn btn-primary">View Blog Post</a>
-                <!-- <button id="viewKnoobsArticle" onclick="window.location.href='https:/\/zacharyhadjahsunsethills.netlify.app';" class="btn btn-primary modalViewArticleBtn">View Project</button>             -->
-                <button id="closeKnoobs" type="button" class="btn btn-primary modalSelector"></button>
+                <input id="closeKnoobs" type="button" class="btn btn-primary modalSelector" value="Close">
               </div>
           </div>
 
@@ -997,8 +997,8 @@
               </div>
 
               <div class="modal-footer justify-content-center"  id="CICDFooter">
-                <!-- <button id="viewCICDArticle" onclick="" class="btn btn-primary modalViewArticleBtn">View Project</button>             -->
-                <button id="closeCICD" type="button" class="btn btn-primary modalSelector">Close</button>
+                <a href="#" target="_blank" class="btn btn-primary">View Blog Post</a><span> </span>
+                <input id="closeCICD" type="button" class="btn btn-primary modalSelector" value="Close">
               </div>
           </div>
 
