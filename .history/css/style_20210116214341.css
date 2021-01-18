@@ -37,7 +37,7 @@
 /*MEDIA QUEIRES FOR ABOVE FOLD*/
 @media (max-width:411px)  {
     #firstName{
-        margin-top:20px;
+        margintop:10px;
     }
     #lastName{
 
@@ -46,17 +46,11 @@
         
     }
 }
-
-@media (max-width:414px)  {
-    #firstName{
-        margin-top:30px;
-    }
+@media (max-width:767px)  {
+    
 }
-
-@media (max-width:768px)  {
-    #firstName{
-        margin-top:50px;
-    }
+@media (max-width:992px)  {
+    
 }
 @media (max-width:1200px)  {
 /*MEDIA QUEIRES FOR ABOVE FOLD*/

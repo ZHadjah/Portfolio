@@ -35,9 +35,9 @@
 
 
 /*MEDIA QUEIRES FOR ABOVE FOLD*/
-@media (max-width:411px)  {
+@media (max-width:768px)  {
     #firstName{
-        margin-top:20px;
+
     }
     #lastName{
 
@@ -46,17 +46,11 @@
         
     }
 }
-
-@media (max-width:414px)  {
-    #firstName{
-        margin-top:30px;
-    }
+@media (max-width:767px)  {
+    
 }
-
-@media (max-width:768px)  {
-    #firstName{
-        margin-top:50px;
-    }
+@media (max-width:992px)  {
+    
 }
 @media (max-width:1200px)  {
 /*MEDIA QUEIRES FOR ABOVE FOLD*/
@@ -208,19 +202,14 @@ background-color:#2C4E85;
 
 /*ComingSoon Project*/
 #ComingSoonHeader{
-    background-color:#0b2b84;
+    background-color:;
 }
-
+  
 #ComingSoonBody{
-    background-color:#264BAE;
-    color:white;
-}
-
-#ComingSoonHeader h1{
-    color:white;
+    background-color:;#264BAE
 }
 
 #ComingSoonFooter{
-    background-color:#0b2b84;
+    background-color:#153daa;
 } 
 /*CICD Project*/

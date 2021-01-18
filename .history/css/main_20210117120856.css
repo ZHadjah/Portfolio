@@ -501,13 +501,17 @@ ul.sub-menu {
     background-position: right;
     background-size: contain;
 }
-@media (max-width:768px) {
+@media (max-width:414768px) {
     .home-two #home-banner {
         background-image: url(../images/bg/2.png);
         background-repeat: no-repeat;
         background-position: right;
         background-size: contain;
         margin-bottom: 200px;
+    }
+
+    .banner-content .banner-info{
+        margin-top: 10px; 
     }
 }
 

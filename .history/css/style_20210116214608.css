@@ -54,9 +54,7 @@
 }
 
 @media (max-width:768px)  {
-    #firstName{
-        margin-top:50px;
-    }
+    
 }
 @media (max-width:1200px)  {
 /*MEDIA QUEIRES FOR ABOVE FOLD*/

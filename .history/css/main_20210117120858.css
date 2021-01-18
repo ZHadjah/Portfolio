@@ -509,6 +509,10 @@ ul.sub-menu {
         background-size: contain;
         margin-bottom: 200px;
     }
+
+    .banner-content .banner-info{
+        margin-top: 10px; 
+    }
 }
 
 

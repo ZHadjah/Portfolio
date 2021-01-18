@@ -35,9 +35,9 @@
 
 
 /*MEDIA QUEIRES FOR ABOVE FOLD*/
-@media (max-width:411px)  {
+@media (max-width:768px)  {
     #firstName{
-        margin-top:20px;
+
     }
     #lastName{
 
@@ -46,17 +46,11 @@
         
     }
 }
-
-@media (max-width:414px)  {
-    #firstName{
-        margin-top:30px;
-    }
+@media (max-width:767px)  {
+    
 }
-
-@media (max-width:768px)  {
-    #firstName{
-        margin-top:50px;
-    }
+@media (max-width:992px)  {
+    
 }
 @media (max-width:1200px)  {
 /*MEDIA QUEIRES FOR ABOVE FOLD*/
@@ -193,34 +187,14 @@ background-color:#2C4E85;
 
 /*CICD Project*/
 #CICDHeader{
-    background-color:#BFD178;
+    background-color:#C9E265;
 }
   
 #CICDBody{
-    background-color:#C9E265
+    background-color;
 }
 
 #CICDFooter{
-    background-color:#BFD178;
-} 
-/*CICD Project*/
-
-
-/*ComingSoon Project*/
-#ComingSoonHeader{
-    background-color:#0b2b84;
-}
-
-#ComingSoonBody{
-    background-color:#264BAE;
-    color:white;
-}
-
-#ComingSoonHeader h1{
-    color:white;
-}
-
-#ComingSoonFooter{
-    background-color:#0b2b84;
+    background-color:#C9E265;
 } 
 /*CICD Project*/
