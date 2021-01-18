@@ -228,17 +228,9 @@ background-color:#2C4E85;
 /*MortgageManager Project*/
 #MortgageManagerHeader{
     background-color:#008000;
-}
+  }
   
-#MortgageManagerBody{
-    background-color: #b4fdb4;
-}
-
-#MortgageManagerFooter{
+  #MortgageManagerFooter{
     background-color:#008000;
-}  
-
-#MortgageManagerHeaderH1{
-    color:white;
-}
+  }  
 /*MortgageManager Project*/

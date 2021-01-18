@@ -11,14 +11,13 @@ function runScripts(){
 
 
     for(let i=0; i < images.length; i++){
-        images[i].addEventListener("click", () => {
-            modal.style.display = 'block'
-        })
+    images[i].addEventListener("click", () => {
+        modal.style.display = 'block'
+    })
     } 
 
     for(let i=0; i < closeBtn.length; i++){
-        closeBtn[i].addEventListener("click", () => {
-            modal.style.display= 'none'
-        })
+    closeBtn[i].addEventListener("click", () => {
+        modal.style.display= 'none'
+    })
     }
-}
