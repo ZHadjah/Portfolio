@@ -7,7 +7,7 @@ function runScripts(){
     //<div class="col-sm-6 modals"
     var images = document.querySelectorAll('.modals');
 
-    var closeBtn = document.querySelectorAll('.mfp-close');
+    var closeBtn = document.getElementById('mfp-close');
 
     for(let i=0; i < images.length; i++){
         images[i].addEventListener("click", () => {
@@ -16,7 +16,7 @@ function runScripts(){
     } 
 
     for(let i=0; i < closeBtn.length; i++){
-        closeBtn[i].addEventListener("click", () => {
+        closeBtn.addEventListener("click", () => {
             modal.style.display= 'none'
         })
     }

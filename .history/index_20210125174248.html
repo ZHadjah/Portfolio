@@ -788,7 +788,7 @@
         <div class="modal fade" id="InternalIssuesModal">
           <div class="modal-dialog">
             <div class="modal-content">
-              <button title="Close (Esc)" type="button" id="mfp-close" onclick="runScripts()">X</button>
+              <button title="Close (Esc)" type="button" class="mfp-close">X</button>
 
               <div class="modal-header justify-content-center" id="InternalIssuesHeader">
                 <div id="InternalIssuesTitle">
@@ -1048,11 +1048,7 @@
                 </div>
               </div>
 
-              <div class="modal-footer justify-content-center"  id="KnoobsFooter">  
-                <a href="https://dev.to/zhadjah9559/the-5-concepts-every-programmer-must-understand-pll-temp-slug-1668131?preview=525603db4b6f4b6b1e49d075ceea8ff0c44919b05b447b28e1e3e0729457841b9a031e2e397176d3f7f86d43c6b305c3387dcad978a7558218ee717b"
-                   target="_blank">
-                  <button  target="_blank" id="closeKnoobsButton" class="btn btn-primary modalViewArticleBtn">View Article</button>   
-                </a>                
+              <div class="modal-footer justify-content-center"  id="KnoobsFooter">                
                 <button onclick="runScripts()" id="closeKnoobs" type="button" class="btn btn-primary modalSelector">Close</button>
               </div>
           </div>
@@ -1177,7 +1173,30 @@
     <!--EmailJS BEGINNING-->
 
 
-   
+    <!--JAVASCRIPT FOR PROJECT MODAL BEGINNING-->
+    <script>
+
+      
+
+    </script>
+    <!--JAVASCRIPT FOR PROJECT MODAL BEGINNING-->
+
+
+    <!--JAVASCRIPT FOR BLOGPOST MODAL BEGINNING-->
+    <script>
+
+      var modal = document.querySelectorAll('.fade');
+      var images = document.querySelectorAll('.entry-post');
+
+
+      for(let i=0; i < images.length; i++){
+        images[i].addEventListener("click", () => {
+          modal.style.display = "block"
+        })
+      } 
+
+    </script>
+    <!--JAVASCRIPT FOR BLOGPOSTMODAL BEGINNING-->
 
   <!--Sweet Alert-->
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
