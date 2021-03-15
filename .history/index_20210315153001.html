@@ -205,10 +205,10 @@
                     <h4>My Skills</h4>
                     <p>
                       I have experience developing with HTML5, CSS3, and
-                      Bootstrap 4. I also work with high level languages such as
+                      Bootstrap 4. I also work with OOP languages such as
                       Java, C#, C, C++, Javascript. When creating web
                       applications, I've worked with the ASP.NET CORE MVC design pattern
-                      while managing data with Microsoft's Entity Core Framework.
+                      while managing data with Microsoft's Entity Core Framework and PostgreSQL.
                     </p>
                     <img id="badges" src="images/badges.png" alt="badges">
                   </div>
@@ -249,9 +249,10 @@
                     the Bootstrap framework to create stunning UI/UX elements.
                     Utilize Visual Studio's scaffolding technologies to create
                     backend code in the MVC Design pattern. Write server side
-                    processes in C#, JavaScript, LINQ. Manage authenticated user
+                    processes in C# and LINQ. Manage authenticated user
                     information and other website data via Microsoft Entity Core
-                    Framework or PostreSQL.
+                    Framework or PostreSQL. Implement Role Based Security Management
+                    via Authorization. 
                   </p>
                 </div>
               </div>
@@ -329,7 +330,7 @@
                     </div>
                     <br>
 
-                <a href="https://drive.google.com/file/d/131InQzm1vFOtSh-_J8TIQVNqZEt67C7c/view?usp=sharing" 
+                <a href="https://drive.google.com/file/d/1yR0VR0YP9vgsdqeRXfeKod4FiwiYE3_J/view?usp=sharing" 
                 class="btn btn-primary" role="button" target="_blank" aria-pressed="true">View Resume</a>
 
                 
@@ -788,7 +789,6 @@
         <div class="modal fade" id="InternalIssuesModal">
           <div class="modal-dialog">
             <div class="modal-content">
-              <button title="Close (Esc)" type="button" id="mfp-close" onclick="runScripts()">X</button>
 
               <div class="modal-header justify-content-center" id="InternalIssuesHeader">
                 <div id="InternalIssuesTitle">
@@ -812,7 +812,9 @@
                 </div>
 
                 <div class="modal-footer justify-content-center" id="InternalIssuesFooter">
-                  <button id="closeInternalIssues"  class="btn btn-primary modalSelector">Close</button>
+                  <!-- <button id="closeInternalIssues"  class="btn btn-primary modalSelector">Close</button> -->
+                  <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+
                 </div>
             </div>
 
@@ -845,7 +847,8 @@
               </div>
               <div class="modal-footer justify-content-center"  id="CashflowCounterFooter">
                 <!-- <button id="viewCashflowCounterProject"  class="btn btn-primary modalViewProjectBtn">View Project</button> -->
-                <button id="closeCashflowCounter" class="btn btn-primary modalSelector">Close</button>
+                <!-- <button id="closeCashflowCounter" class="btn btn-primary modalSelector">Close</button> -->
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
               </div>
           </div>
 
@@ -878,7 +881,9 @@
 
               <div class="modal-footer justify-content-center"  id="BrainBufferOverflowFooter">
                 <!-- <button id="viewBrainBufferOverflowProject"  class="btn btn-primary modalViewProjectBtn">View Project</button> -->
-                <input id="closeBrainBufferOverflow" type="button" class="btn btn-primary modalSelector" value="Close">
+                <!-- <input id="closeBrainBufferOverflow" type="button" class="btn btn-primary modalSelector" value="Close"> -->
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+             
               </div>
           </div>
 
@@ -912,8 +917,8 @@
                 <a href="https://zacharyhadjahfizzbuzz.netlify.app" target="_blank">
                   <button  id="viewFizzBuzzProject" class="btn btn-primary modalViewProjectBtn">View Project</button>   
                 </a>
-                
-                <button id="closeFizzBuzz" type="button" class="btn btn-primary modalSelector">Close</button>
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>                
+                <!-- <button id="closeFizzBuzz" type="button" class="btn btn-primary modalSelector">Close</button> -->
               </div>
           </div>
 
@@ -944,8 +949,8 @@
               <div class="modal-footer justify-content-center" id="TacocatGrammarFooter">
                 <a href="https://zacharyhadjahtacocatgrammar.netlify.app" target="_blank">
                   <button  id="viewTacocatGrammarProject" class="btn btn-primary modalViewProjectBtn">View Project</button>   
-                </a>            
-                <input id="closeTacocatGrammar" type="button" class="btn btn-primary modalSelector" value="Close">
+                </a>
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>            
               </div>
           </div>
 
@@ -977,10 +982,11 @@
               </div>
 
               <div class="modal-footer justify-content-center" id="SunsetHillsFooter">
-                <!-- <a href="https://zacharyhadjahsunsethills.netlify.app" target="_blank">
+                <a href="https://zacharyhadjahsunsethills.netlify.app" target="_blank">
                   <button  target="_blank" id="viewSunsetHillsProject" class="btn btn-primary modalViewProjectBtn">View Project</button>   
-                </a>             -->
-                <button type="button" class="btn btn-primary modalSelector">Close</button>
+                </a>            
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+
               </div>
           </div>
 
@@ -1012,8 +1018,10 @@
               <div class="modal-footer justify-content-center" id="MortgageManagerFooter">
                 <a href="https://zacharyhadjahmortgagemanager.netlify.app" target="_blank">
                   <button  target="_blank" id="viewMortgageManagerProject" class="btn btn-primary modalViewProjectBtn">View Project</button>   
-                </a>            
-                <button type="button" class="btn btn-primary modalSelector">Close</button>
+                </a>  
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+
+                <!-- <button type="button" class="btn btn-primary modalSelector">Close</button> -->
               </div>
           </div>
 
@@ -1042,17 +1050,21 @@
                   <h2>Getting Started</h2>
                   <p class="lead">Intro to Webdev</p>
                   <ul class="list-unstyled">
-                      <li>**MORE**</li>
+                      <li>Incite into what new developers should take</li>
+                      <li>into consideration.</li>
                   </ul>
                   
                 </div>
               </div>
 
               <div class="modal-footer justify-content-center"  id="KnoobsFooter">  
-                <a href="https://zacharyhadjahmortgagemanager.netlify.app" target="_blank">
-                  <button  target="_blank" id="viewMortgageManagerProject" class="btn btn-primary modalViewProjectBtn">View Project</button>   
-                </a>                
-                <button onclick="runScripts()" id="closeKnoobs" type="button" class="btn btn-primary modalSelector">Close</button>
+                <a href="https://dev.to/zhadjah9559/the-5-concepts-every-programmer-must-understand-4g3e"
+                   target="_blank">
+                  <button  target="_blank" id="closeKnoobsButton" class="btn btn-primary modalViewArticleBtn">View Article</button>   
+                </a>  
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>              
+                <!-- <button onclick="runScripts()" id="closeKnoobs" type="button" class="btn btn-primary modalSelector">Close</button> -->
+                <p>  </p>
               </div>
           </div>
 
@@ -1075,13 +1087,17 @@
                   <h2>Getting juniors familiar with CICD</h2>
                   <p class="lead">Intro to Webdev</p>
                   <ul class="list-unstyled">
-                      <li>**MORE**</li>
+                      <li>Incite into Netlify and Heroku</li>
                   </ul>
                 </div>
               </div>
 
               <div class="modal-footer justify-content-center"  id="CICDFooter">
-                <button id="closeCICD" type="button" class="btn btn-primary modalSelector">Close</button>
+                <a href="https://dev.to/zhadjah9559/why-cicd-is-so-important-422d"
+                   target="_blank">
+                  <button  target="_blank"  class="btn btn-primary modalViewArticleBtn">View Article</button>   
+                </a>  
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>      
               </div>
           </div>
 
@@ -1111,7 +1127,7 @@
               </div>
 
               <div class="modal-footer justify-content-center"  id="ComingSoonFooter">
-                <button id="closeComingSoon" type="button" class="btn btn-primary modalSelector">Close</button>
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
               </div>
           </div>
 
