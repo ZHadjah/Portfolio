@@ -206,26 +206,26 @@ background-color:#2C4E85;
 /*CICD Project*/
 
 
-/*Recruiters Project*/
-#RecruitersHeader{
-    background-color:#B83330;
+B83330
+/*ComingSoon Project*/
+#ComingSoonHeader{
+    background-color:#0b2b84;
 }
 
-#RecruitersBody{
-    background-color:#df4b49;
+#ComingSoonBody{
+    background-color:#264BAE;
     color:white;
 }
 
-#text-white{color:white;}
-
-#RecruitersHeader h1{
+#ComingSoonHeader h1{
     color:white;
 }
 
-#RecruitersFooter{
-    background-color:#B83330;
+#ComingSoonFooter{
+    background-color:#0b2b84;
 } 
-/*Recruiters Project*/
+/*Cooming Soon Project*/
+
 
 
 /*ComingSoon Project*/

@@ -208,15 +208,13 @@ background-color:#2C4E85;
 
 /*Recruiters Project*/
 #RecruitersHeader{
-    background-color:#B83330;
+    background-color:#da5351;
 }
 
 #RecruitersBody{
-    background-color:#df4b49;
+    background-color:#264BAE;
     color:white;
 }
-
-#text-white{color:white;}
 
 #RecruitersHeader h1{
     color:white;

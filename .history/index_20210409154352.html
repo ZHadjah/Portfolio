@@ -735,6 +735,7 @@
 
               <!-- Blog Posts-->
               <div class="row">
+                
 
                 <div class="col-sm-6 modals" id="OpenKnoobsModal" data-toggle="modal" data-target="#KnoobsBlogPostModal">
                   <div class="entry-post">
@@ -747,8 +748,10 @@
                       />
                     </div>
                     <div class="post-content">
-                      
-                      <div class="entry-title pt-4">
+                      <div class="time">
+                        <a href="#">09 <span>feb</span></a>
+                      </div>
+                      <div class="entry-title">
                         <h2>
                           <a href="blog.html"
                             >What new developers should understand early</a
@@ -758,6 +761,7 @@
                     </div>
                   </div>
                 </div>
+
 
                 <div class="col-sm-6 modals" id="OpenCICDModal" data-toggle="modal" data-target="#CICDBlogPostModal">
                   <div class="entry-post">
@@ -770,34 +774,14 @@
                       />
                     </div>
                     <div class="post-content">
-                      
-                      <div class="entry-title pt-4">
+                      <div class="time time1">
+                        <a href="#">19 <span>feb</span></a>
+                      </div>
+                      <div class="entry-title">
                         <h2>
                           <a href="blog.html"
                             >The importance of CICD for junior developers</a
                           >
-                        </h2>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-sm-6 modals" id="OpenRecruitersModal" data-toggle="modal" data-target="#RecruitersBlogPostModal">
-                  <div class="entry-post">
-                    <div class="entry-thumbnail">
-                      <div class="thumbnail-oberlay"></div>
-                      <img
-                        class="img-fluid"
-                        src="images/blog/TechnicalRecruiters.png"
-                        alt="Image"
-                      />
-                    </div>
-                    <div class="post-content">
-                      <div class="entry-title pt-4">
-                        <h2>
-                          <a href="blog.html"
-                            >How Technical Recruiters can better interact with Developers
-                          </a>
                         </h2>
                       </div>
                     </div>
@@ -815,8 +799,10 @@
                       />
                     </div>
                     <div class="post-content">
-                      
-                      <div class="entry-title pt-4">
+                      <div class="time time1">
+                        <a href="#">19 <span>feb</span></a>
+                      </div>
+                      <div class="entry-title">
                         <h2>
                           <a href="blog.html"
                             >More blog posts will be coming soon</a
@@ -826,7 +812,6 @@
                     </div>
                   </div>
                 </div>
-
               </div>
 
 
@@ -838,7 +823,7 @@
       </div>
       <!-- blog section -->  
       
-      <!-- Footer-->
+
       <div id="footer">
         <div class="container text-center">
           <div class="footer">
@@ -847,10 +832,12 @@
         </div>
         <!-- contaner -->
       </div>
-      <!-- Footer -->
+      <!-- footer -->
+
 
     </div>
     <!-- main wrapper -->
+
 
     <!--BEGIN PROJECT MODALS-->
 
@@ -1011,9 +998,8 @@
                   <img src="images/portfolio/TacocatGrammar.png" alt="TacocatGrammar">
                   <h2>Palindrome 🔁 Check</h2>
                   <ul class="list-unstyled">
-                      <li>This program will implement standard techniques such </li>
-                      <li>as for loops and if statements to verify whether the </li>
-                      <li>inputted word is a palindrome or not. </li>
+                      <li>This program will implement standard techniques such as for loops</li>
+                      <li> and if statements to verify whether the inputted word is a palindrome or not. </li>
                   </ul>
                 </div>
               </div>
@@ -1045,11 +1031,10 @@
                   <h2>Coming Soon</h2>
                   <p>Sunset 🌇 Hills</p>
                   <ul class="list-unstyled">
-                      <li>Five buildings are facing the sun.</li>
-                      <li>The height of each building from left to right is given </li>
-                      <li>in an array. This program will show which buildings will </li>
-                      <li>be able to see the sunset.</li>
-
+                      <li>An array of buildings are facing the sun.</li>
+                      <li>in an array. The height of each building from left</li>
+                      <li>to right is given .This program prints how many </li>
+                      able to see the sunset, given the array.</li>
                   </ul>
                 </div>
               </div>
@@ -1212,43 +1197,6 @@
         </div>
       </div>
       <!--CICDBlogPost Modal-->
-
-       <!--RecruitersBlogPost Modal-->
-       <div class="modal fade" id="RecruitersBlogPostModal">
-        <div class="modal-dialog">       
-          <div class="modal-content">
-              <div class="modal-header justify-content-center"  id="RecruitersHeader">
-                <div id="RecruitersTitle">
-                 <h1>Communication</h1>
-                </div>
-              </div> 
-              
-              <div class="modal-body"  id="RecruitersBody">
-                <div id="small-dialog2" class="white-popup zoom-anim-dialog text-center">
-                  <img src="images/blog/TechnicalRecruiters.png" alt="Knoobs">
-                  <h2 id="text-white">Better Communication</h2>
-                  <ul class="list-unstyled">
-                      <li>Tips detailing how technical recruiters can better</li>
-                      <li>interact with developers and boost their success rates.</li>
-                  </ul>
-                  
-                </div>
-              </div>
-
-              <div class="modal-footer justify-content-center"  id="RecruitersFooter">  
-                <a href="https://dev.to/zhadjah9559/how-technical-recruiters-can-better-interact-with-developers-5b4i"
-                   target="_blank">
-                  <button  target="_blank" id="closeRecruitersButton" class="btn btn-primary modalViewArticleBtn">View Article</button>   
-                </a>  
-                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>              
-                <!-- <button onclick="runScripts()" id="closeKnoobs" type="button" class="btn btn-primary modalSelector">Close</button> -->
-                <p>  </p>
-              </div>
-          </div>
-
-        </div>
-      </div>
-      <!--RecruitersBlogPost Modal-->
 
       <!--ComingSoon Modal-->
       <div class="modal fade" id="ComingSoonModal">

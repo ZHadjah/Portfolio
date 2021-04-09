@@ -167,11 +167,11 @@ background-color:#2C4E85;
 }
   
 #SunsetHillsBody{
-    background-color:#f5ef9b;
+    background-color:#00B8F1;
 }
 
 #SunsetHillsFooter{
-    background-color:#F0E440;
+    background-color:#689F38;
 } 
 /*Sunset Hills Project*/
 
@@ -206,28 +206,6 @@ background-color:#2C4E85;
 /*CICD Project*/
 
 
-/*Recruiters Project*/
-#RecruitersHeader{
-    background-color:#B83330;
-}
-
-#RecruitersBody{
-    background-color:#df4b49;
-    color:white;
-}
-
-#text-white{color:white;}
-
-#RecruitersHeader h1{
-    color:white;
-}
-
-#RecruitersFooter{
-    background-color:#B83330;
-} 
-/*Recruiters Project*/
-
-
 /*ComingSoon Project*/
 #ComingSoonHeader{
     background-color:#0b2b84;
@@ -245,7 +223,7 @@ background-color:#2C4E85;
 #ComingSoonFooter{
     background-color:#0b2b84;
 } 
-/*Cooming Soon Project*/
+/*CICD Project*/
 
 /*MortgageManager Project*/
 #MortgageManagerHeader{
@@ -271,12 +249,12 @@ background-color:#2C4E85;
     background-color:#4A989E;
 }
 
-#RolodexHeaderH1{
-    color:white;
+#RolodexTitle h1{
+    color:w;
 }
 
 #RolodexBody{
-    background-color:#6bd3db;
+    background-color:#7f9da5;
 }  
   
 #RolodexFooter{

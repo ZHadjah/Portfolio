@@ -206,26 +206,7 @@ background-color:#2C4E85;
 /*CICD Project*/
 
 
-/*Recruiters Project*/
-#RecruitersHeader{
-    background-color:#B83330;
-}
 
-#RecruitersBody{
-    background-color:#df4b49;
-    color:white;
-}
-
-#text-white{color:white;}
-
-#RecruitersHeader h1{
-    color:white;
-}
-
-#RecruitersFooter{
-    background-color:#B83330;
-} 
-/*Recruiters Project*/
 
 
 /*ComingSoon Project*/
@@ -245,7 +226,7 @@ background-color:#2C4E85;
 #ComingSoonFooter{
     background-color:#0b2b84;
 } 
-/*Cooming Soon Project*/
+/*CICD Project*/
 
 /*MortgageManager Project*/
 #MortgageManagerHeader{
