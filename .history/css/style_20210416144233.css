@@ -314,43 +314,15 @@ background-color:#2C4E85;
 
 /*VIP Article*/
 #VIPHeader{
-    background-color:#AC9A4A;
+    background-color:#dbc873;
 }
 
 #VIPBody{
-    background-color:#d1bd66;
+    background-color:#AC9A4A;
 }  
   
 #VIPFooter{
     background-color:#AC9A4A;
 }  
-/*VIP Article*/
+/*Identity Article*/
 
-
-/*Elephant Article*/
-#ElephantHeader{
-    background-color:#1A4579;
-}
-
-#ElephantBody{
-    background-color:#a3bad6;
-}  
-  
-#ElephantFooter{
-    background-color:#1A4579;
-}  
-/*Elephant Article*/
-
-/*Recycle Article*/
-#RecycleHeader{
-    background-color:#417929;
-}
-
-#RecycleBody{
-    background-color:#92d376;
-}  
-  
-#RecycleFooter{
-    background-color:#417929;
-}  
-/*Recycle Article*/

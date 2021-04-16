@@ -298,59 +298,20 @@ background-color:#2C4E85;
 }  
 /*Miyagi Article*/
 
-/*Identity Article*/
-#IdentityHeader{
+/*Miyagi Article*/
+#MiyagiHeader{
     background-color:#737373;
 }
 
-#IdentityBody{
-    background-color:#A6A6A6;
+#MiyagiBody{
+    background-color:#ebca5f;
 }  
   
-#IdentityFooter{
+#MiyagiFooter{
     background-color:#737373;
 }  
-/*Identity Article*/
-
-/*VIP Article*/
-#VIPHeader{
-    background-color:#AC9A4A;
-}
-
-#VIPBody{
-    background-color:#d1bd66;
-}  
-  
-#VIPFooter{
-    background-color:#AC9A4A;
-}  
-/*VIP Article*/
+/*Miyagi Article*/
 
 
-/*Elephant Article*/
-#ElephantHeader{
-    background-color:#1A4579;
-}
 
-#ElephantBody{
-    background-color:#a3bad6;
-}  
-  
-#ElephantFooter{
-    background-color:#1A4579;
-}  
-/*Elephant Article*/
-
-/*Recycle Article*/
-#RecycleHeader{
-    background-color:#417929;
-}
-
-#RecycleBody{
-    background-color:#92d376;
-}  
-  
-#RecycleFooter{
-    background-color:#417929;
-}  
-/*Recycle Article*/
+737373
