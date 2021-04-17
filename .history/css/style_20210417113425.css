@@ -314,7 +314,7 @@ background-color:#2C4E85;
 
 /*VIP Article*/
 #VIPHeader{
-    background-image:linear-gradient( to bottom,#977B1A, #B9AC61, #977B1A);
+    background-image:linear-gradient(to bottom right, #977B1A, #B9AC61, #977B1A);
 }
 
 #VIPBody{
@@ -322,7 +322,7 @@ background-color:#2C4E85;
 }  
   
 #VIPFooter{
-    background-image:linear-gradient(to bottom, #977B1A, #B9AC61, #977B1A);
+    background-image:linear-gradient(to bottom left, #977B1A, #B9AC61, #977B1A);
 }  
 /*VIP Article*/
 
